@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
             Connect Directly with Your Sporting Heroes
           </h1>
           <h2 className="text-xl md:text-2xl text-primary-secondary mb-8">
-            Get personalized advice and exclusive content from verified elite athletes
+            Get personalised advice and exclusive content from verified elite athletes
           </h2>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-lg font-medium text-primary-text mb-4">Be the First to Know When We Launch</h3>

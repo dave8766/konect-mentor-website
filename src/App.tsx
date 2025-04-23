@@ -1,27 +1,18 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import HowItWorks from './components/HowItWorks';
-import Testimonials from './components/Testimonials';
-import Safety from './components/Safety';
-import AthleteCallout from './components/AthleteCallout';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import UserPage from './pages/UserPage';
+import AthletePage from './pages/AthletePage';
 
 function App() {
   return (
-    <div className="font-sans text-primary-text bg-primary-background min-h-screen">
-      <Header />
-      <main>
-        <Hero />
-        <Features />
-        <HowItWorks />
-        <Testimonials />
-        <Safety />
-        <AthleteCallout />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/athlete" element={<AthletePage />} />
+        <Route path="/user" element={<UserPage />} />
+      </Routes>
+    </Router>
   );
 }
 

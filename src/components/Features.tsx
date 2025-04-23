@@ -68,7 +68,7 @@ const Features: React.FC = () => {
     {
       icon: '💬',
       title: 'Direct Q&A',
-      description: 'Ask questions and get personalized answers from elite athletes in your sport',
+      description: 'Ask questions and get personalised answers from elite athletes in your sport',
     },
     {
       icon: '🎯',
@@ -77,7 +77,7 @@ const Features: React.FC = () => {
     },
     {
       icon: '📝',
-      title: 'Personalized Advice',
+      title: 'Personalised Advice',
       description: 'Receive tailored feedback on your performance and technique from the best in the field',
     },
     {
@@ -104,10 +104,10 @@ const Features: React.FC = () => {
     {
       icon: '🎥',
       title: '1-on-1 Video Calls',
-      description: 'Schedule private video sessions (15-min, 30-min) with your chosen athlete mentor for personalized guidance.',
+      description: 'Schedule private video sessions (15-min, 30-min) with your chosen athlete mentor for personalised guidance.',
       benefits: [
         'Real-time feedback and demonstrations',
-        'Personalized attention addressing specific needs',
+        'Personalised attention addressing specific needs',
         'More engaging and interactive experience',
         'Opportunity to show your technique for feedback',
         'Build a more personal mentor relationship'
@@ -122,14 +122,14 @@ const Features: React.FC = () => {
         'Learn from questions asked by other participants',
         'More accessible pricing than private sessions',
         'Community feeling with like-minded sports enthusiasts',
-        'Regular scheduled sessions with your favorite athletes',
+        'Regular scheduled sessions with your favourite athletes',
         'Wide range of topics covered in a single session'
       ],
       example: '"Attending the monthly AMA with the professional cycling team gives me incredible insights into training, nutrition, and race tactics. Plus, I have connected with other cycling enthusiasts!"'
     },
     {
       icon: '📹',
-      title: 'Personalized Video Responses',
+      title: 'Personalised Video Responses',
       description: 'Submit videos of your technique or performance and receive detailed video feedback and critiques.',
       benefits: [
         'Visual demonstration of corrections and improvements',
@@ -143,7 +143,7 @@ const Features: React.FC = () => {
     {
       icon: '📱',
       title: 'Content Feed',
-      description: 'Access private feeds with articles, short videos, training logs, and mindset tips from your favorite athletes.',
+      description: 'Access private feeds with articles, short videos, training logs, and mindset tips from your favourite athletes.',
       benefits: [
         'Regular updates from athletes you follow',
         'Insight into professional training methodologies',
@@ -151,7 +151,7 @@ const Features: React.FC = () => {
         'Seasonal training tips and competition advice',
         'Mindset and motivation from the best in the sport'
       ],
-      example: '"Following my favorite runner\'s content feed has transformed my training. I have implemented her strength routines, nutrition tips, and race-day strategies with amazing results."'
+      example: '"Following my favourite runner\'s content feed has transformed my training. I have implemented her strength routines, nutrition tips, and race-day strategies with amazing results."'
     },
   ];
 

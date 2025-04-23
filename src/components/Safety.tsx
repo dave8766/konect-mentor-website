@@ -58,7 +58,7 @@ const Safety: React.FC = () => {
     },
     {
       title: 'Reporting',
-      description: 'Users can report inappropriate athlete behavior or content at any time.'
+      description: 'Users can report inappropriate athlete behaviour or content at any time.'
     },
     {
       title: 'Disclaimers',
@@ -76,7 +76,7 @@ const Safety: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-primary-text mb-4">Safety & Trust</h2>
           <p className="text-xl text-primary-secondary max-w-3xl mx-auto">
-            We prioritize the safety of everyone on our platform with comprehensive protections
+            We prioritise the safety of everyone on our platform with comprehensive protections
           </p>
         </div>
 
